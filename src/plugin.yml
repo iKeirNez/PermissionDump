@@ -1,0 +1,12 @@
+name: PermissionDump
+version: 1.0
+author: iKeirNez
+main: me.ikeirnez.permissiondump.PermissionDump
+permissions:
+  permissiondump.do:
+    default: op
+    description: Allows the player to use the /permdump command
+commands:
+  permdump:
+    description: Dumps all permissions to dump file
+    usage: /<command>
